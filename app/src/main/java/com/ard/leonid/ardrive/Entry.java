@@ -63,6 +63,7 @@ public class Entry extends ActionBarActivity {
 //        });
     }
     void findBT() {
+//        Find BT!
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
         if(mBluetoothAdapter == null) {
            // myLabel.setText("No bluetooth adapter available");
